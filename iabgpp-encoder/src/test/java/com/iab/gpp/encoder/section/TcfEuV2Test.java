@@ -461,7 +461,7 @@ public class TcfEuV2Test {
   }
 
   @Test
-  public void testU1SpecExampleStringIsEmpty() {
+  public void testSpecExampleEmptyFieldsRespectViewBounds() {
     TcfEuV2 t =
         new TcfEuV2(
             "CQSbk4AQSbk4ANwAAAENAwCgAAAAAAAAAAYgACPAAAAA.IDKQA4AAgAKAGQAygAAA.YAAAAAAAAAAA");
@@ -473,7 +473,7 @@ public class TcfEuV2Test {
   }
 
   @Test
-  public void testU1DisclosedVendorsPaddingBitIsEmpty() {
+  public void testDisclosedVendorsEmptyBitfieldWithPaddingBit() {
     TcfEuV2 t =
         new TcfEuV2(
             "CQSU_AAQSU_AAEsACBENCWFgAP_gAEAAAAYgAxwAgACgBjAAAAAA.IAFAABA");
